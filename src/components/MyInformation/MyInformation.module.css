@@ -1,0 +1,35 @@
+.Card {
+     background-color: rgb(46, 55, 173);
+     display: flex;
+     justify-content: space-evenly;
+     width: 700px;
+     padding: 14px;
+     border-radius: 14px;
+     border: 0.8px solid aliceblue;
+} 
+
+.Card img {
+    width: 300px;
+}
+
+.blockForCards {
+    margin-top: 80px;
+}
+
+.TextBlock {
+    color: aliceblue;
+}
+
+.TextBlock h2,h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.TextBlock h2 {
+    font-size: 24px;
+}
+
+.TextBlock h4 {
+    margin-top: 20px;
+    font-size: 18px;
+}

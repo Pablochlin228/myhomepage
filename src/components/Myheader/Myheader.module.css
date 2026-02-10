@@ -1,0 +1,19 @@
+.Myheader {
+    background-color: rgb(122, 122, 255);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Name {
+    font-size: 36px;
+    color: #f3f3f3;
+}
+
+.InformationBlock a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
