@@ -11,7 +11,7 @@ export function MyinfoFilm(props) {
   </div>
 }
 
-export function Blockforfilms() {
+export function Blockforfilms(props) {
   return <div className={styles.filmBlock}>
     <MyinfoFilm photo="film1.jpg" name="Avatar" year="2009"
       description="Avatar is a science-fiction film directed by James Cameron.The story takes place on the alien planet Pandor where humans mine a valuable resource. A former marine Jake Sully uses an avatar body to interact with the native Navi people." />

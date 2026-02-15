@@ -1,9 +1,167 @@
 @media screen and (min-width: 1200px) {
-    .MyPet {}
+    .PetCard {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 600px;
+         padding: 14px;
+         border-radius: 14px;
+         margin-top: 80px;
+         margin-bottom: 30px;
+     }
+
+     .PetCard img {
+        width: 300px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         text-align: center;
+         width: 230px;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 28px;
+     }
+
+     .TextBlock h2 {
+         font-size: 24px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 18px;
+     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1199px) {}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .PetCard {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 500px;
+         padding: 14px;
+         border-radius: 14px;
+         margin-top: 80px;
+         margin-bottom: 30px;
+     }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {}
+     .PetCard img {
+        width: 200px;
+     }
 
-@media screen and (max-width: 767px) {}
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         text-align: center;
+         width: 230px;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 26px;
+     }
+
+     .TextBlock h2 {
+         font-size: 22px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 16px;
+     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .PetCard {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 460px;
+         padding: 14px;
+         border-radius: 14px;
+         margin-top: 80px;
+         margin-bottom: 30px;
+     }
+
+     .PetCard img {
+        width: 200px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         text-align: center;
+         width: 200px;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 20px;
+     }
+
+     .TextBlock h2 {
+         font-size: 182px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 14px;
+     }
+}
+
+@media screen and (max-width: 767px) {
+    .PetCard {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 420px;
+         padding: 14px;
+         border-radius: 14px;
+         margin-top: 80px;
+         margin-bottom: 30px;
+     }
+
+     .PetCard img {
+        width: 200px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         text-align: center;
+         width: 200px;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 18px;
+     }
+
+     .TextBlock h2 {
+         font-size: 18px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 14px;
+     }
+}

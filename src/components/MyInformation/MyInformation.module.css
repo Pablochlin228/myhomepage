@@ -66,14 +66,14 @@
          justify-content: space-between;
      }
 
-     .TextBlock h2,
-     h3 {
+     .TextBlock h2 {
          text-align: center;
          margin-bottom: 10px;
+         font-size: 18px;
      }
 
-     .TextBlock h2 {
-         font-size: 22px;
+     .TextBlock h3 {
+         font-size: 18px;
      }
 
      .TextBlock h4 {

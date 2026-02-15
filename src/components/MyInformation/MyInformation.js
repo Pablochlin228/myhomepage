@@ -23,7 +23,7 @@ export function Myinfo(props) {
   </div>
 }
 
-export function Blockforinformation() {
+export function Blockforinformation(props) {
   return <div className={styles.blockForCards}>
     <Myinfo photo="me.jpg" fullName="Cherkasov Pavlo Muckolaevich"
     phone="+380687959492" email="cherkasov08pavel@gmail.com"
