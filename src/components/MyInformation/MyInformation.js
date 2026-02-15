@@ -25,7 +25,7 @@ export function Myinfo(props) {
 
 export function Blockforinformation() {
   return <div className={styles.blockForCards}>
-    <Myinfo photo="me.png" fullName="Cherkasov Pavlo Muckolaevich"
+    <Myinfo photo="me.jpg" fullName="Cherkasov Pavlo Muckolaevich"
     phone="+380687959492" email="cherkasov08pavel@gmail.com"
     ability1="Have B2 english"
     ability2="Know C++"

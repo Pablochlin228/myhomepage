@@ -1,35 +1,173 @@
-.Card {
-     background-color: rgb(46, 55, 173);
-     display: flex;
-     justify-content: space-evenly;
-     width: 700px;
-     padding: 14px;
-     border-radius: 14px;
-     border: 0.8px solid aliceblue;
-} 
+ @media screen and (min-width: 1200px) {
+     .Card {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 700px;
+         padding: 14px;
+         border-radius: 14px;
+         border: 0.8px solid aliceblue;
+     }
 
-.Card img {
-    width: 300px;
-}
+     .Card img {
+         width: 300px;
+     }
 
-.blockForCards {
-    margin-top: 80px;
-}
+     .blockForCards {
+         margin-top: 80px;
+     }
 
-.TextBlock {
-    color: aliceblue;
-}
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
 
-.TextBlock h2,h3 {
-    text-align: center;
-    margin-bottom: 10px;
-}
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+     }
 
-.TextBlock h2 {
-    font-size: 24px;
-}
+     .TextBlock h2 {
+         font-size: 24px;
+     }
 
-.TextBlock h4 {
-    margin-top: 20px;
-    font-size: 18px;
-}
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 18px;
+     }
+ }
+ 
+  @media screen and (min-width: 1024px ) and (max-width: 1199px) {
+    .Card {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 600px;
+         padding: 14px;
+         border-radius: 14px;
+         border: 0.8px solid aliceblue;
+     }
+
+     .Card img {
+         width: 260px;
+     }
+
+     .blockForCards {
+         margin-top: 80px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+     }
+
+     .TextBlock h2 {
+         font-size: 22px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 16px;
+     }
+  }
+
+  @media screen and (min-width: 768px ) and (max-width: 1023px) {
+    .Card {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 500px;
+         padding: 14px;
+         border-radius: 14px;
+         border: 0.8px solid aliceblue;
+     }
+
+     .Card img {
+         width: 220px;
+     }
+
+     .blockForCards {
+         margin-top: 80px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 18px;
+     }
+
+     .TextBlock h2 {
+         font-size: 20px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 14px;
+     }
+  }
+
+  @media screen and (max-width: 767px) {
+    .Card {
+         background-color: rgb(46, 55, 173);
+         display: flex;
+         justify-content: space-evenly;
+         width: 420px;
+         padding: 14px;
+         border-radius: 14px;
+         border: 0.8px solid aliceblue;
+     }
+
+     .Card img {
+         width: 180px;
+     }
+
+     .blockForCards {
+         margin-top: 80px;
+     }
+
+     .TextBlock {
+         color: aliceblue;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+
+     .TextBlock h2,
+     h3 {
+         text-align: center;
+         margin-bottom: 10px;
+         font-size: 14px;
+     }
+
+     .TextBlock h2 {
+         font-size: 14px;
+     }
+
+     .TextBlock h4 {
+         margin-top: 20px;
+         font-size: 14px;
+     }
+
+     .TextBlock li {
+        font-size: 14px;
+     }
+  }

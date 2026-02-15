@@ -1,19 +1,74 @@
-.Myheader {
-    background-color: rgb(122, 122, 255);
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
+ .InformationBlock a {
+     margin-right: 10px;
+     text-decoration: none;
+     font-size: 20px;
+     color: #ffffff;
+ }
 
-.Name {
-    font-size: 36px;
-    color: #f3f3f3;
-}
+ @media screen and (min-width: 1200px) {
+     .Myheader {
+         background-color: rgb(58, 58, 223);
+         padding: 16px;
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+     }
 
-.InformationBlock a {
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #ffffff;
-}
+     .Name {
+         font-size: 50px;
+         color: #f3f3f3;
+     }
+ }
+
+ @media screen and (min-width: 1024px ) and (max-width: 1199px) {
+     .Myheader {
+         background-color: rgb(58, 58, 223);
+         padding: 16px;
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+     }
+
+     .Name {
+         font-size: 36px;
+         color: #f3f3f3;
+     }
+ }
+
+ @media screen and (min-width: 768px ) and (max-width: 1023px) {
+     .Myheader {
+         background-color: rgb(58, 58, 223);
+         padding: 16px;
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+     }
+
+     .Name {
+         font-size: 30px;
+         color: #f3f3f3;
+     }
+
+     .InformationBlock {
+         display: none;
+     }
+ }
+
+ @media screen and (max-width: 767px) {
+     .Myheader {
+         background-color: rgb(58, 58, 223);
+         padding: 16px;
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+     }
+
+     .Name {
+         font-size: 24px;
+         color: #f3f3f3;
+     }
+
+     .InformationBlock {
+         display: none;
+     }
+ }

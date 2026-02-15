@@ -1,1 +1,160 @@
-.MyFilm {}
+ @media screen and (min-width: 1200px) {
+     .Card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         text-align: center;
+         width: 300px;
+         background-color: rgb(52, 122, 201);
+         color: aliceblue;
+     }
+
+     .filmPhoto {
+         width: 300px;
+         height: 400px;
+         object-fit: cover;
+     }
+
+     .Card p {
+         background-color: rgb(46, 55, 173);
+         padding: 4px;
+     }
+
+     .rating {
+         padding-top: 16px;
+         font-size: 20px;
+     }
+
+     .ratingPhoto {
+         width: 200px;
+     }
+
+     .filmBlock {
+         margin-top: 100px;
+         display: flex;
+         justify-content: space-evenly;
+         width: 1200px;
+     }
+ }
+
+ @media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .Card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         text-align: center;
+         width: 260px;
+         background-color: rgb(52, 122, 201);
+         color: aliceblue;
+     }
+
+     .filmPhoto {
+         width: 260px;
+         height: 340px;
+         object-fit: cover;
+     }
+
+     .Card p {
+         background-color: rgb(46, 55, 173);
+         padding: 4px;
+     }
+
+     .rating {
+         padding-top: 16px;
+         font-size: 20px;
+     }
+
+     .ratingPhoto {
+         width: 200px;
+     }
+
+     .filmBlock {
+         margin-top: 100px;
+         display: flex;
+         justify-content: space-evenly;
+         width: 1000px;
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         text-align: center;
+         width: 260px;
+         background-color: rgb(52, 122, 201);
+         color: aliceblue;
+         margin-top: 20px;
+     }
+
+     .filmPhoto {
+         width: 260px;
+         height: 340px;
+         object-fit: cover;
+     }
+
+     .Card p {
+         background-color: rgb(46, 55, 173);
+         padding: 4px;
+     }
+
+     .rating {
+         padding-top: 16px;
+         font-size: 20px;
+     }
+
+     .ratingPhoto {
+         width: 200px;
+     }
+
+     .filmBlock {
+         margin-top: 100px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         width: 800px;
+     }
+ }
+
+ @media screen and (max-width: 767px) {
+    .Card {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         text-align: center;
+         width: 220px;
+         background-color: rgb(52, 122, 201);
+         color: aliceblue;
+         margin-top: 20px;
+     }
+
+     .filmPhoto {
+         width: 220px;
+         height: 340px;
+         object-fit: cover;
+     }
+
+     .Card p {
+         background-color: rgb(46, 55, 173);
+         padding: 4px;
+         font-size: 15px;
+     }
+
+     .rating {
+         padding-top: 16px;
+         font-size: 20px;
+     }
+
+     .ratingPhoto {
+         width: 200px;
+     }
+
+     .filmBlock {
+         margin-top: 100px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         width: 400px;
+     }
+ }
